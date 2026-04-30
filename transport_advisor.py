@@ -75,7 +75,7 @@ def get_fare(network: dict, origin: str, dest: str, fare_type: str) -> float:
 
     return None  
 
-MAX_SEGMENTS = 10
+MAX_SEGMENTS = 40
 MAX_ROUTES   = 12
 
 def find_routes(graph: dict, origin: str, destination: str,
